@@ -1,0 +1,9 @@
+let message = "Hello"
+function sum(a,b){ return a+b}
+function sum(){
+return 1;
+}
+sum()
+function sum(a,b){
+return a+b;
+}
