@@ -8,6 +8,7 @@
           <chats>
             <list>
               <chat>
+<<<<<<< HEAD
                 <internalId value="6612c06a-00c1-411e-9bf9-2823acf52b61" />
                 <llm>
                   <llm>
@@ -185,6 +186,18 @@
               <title value="Claude 3 Sonnet" />
             </llm>
           </defaultLlm>
+=======
+                <internalId value="a31eb4c5-d26e-413c-b715-a48f722f98c4" />
+              </chat>
+              <chat>
+                <internalId value="09418a76-c07d-40de-a66a-651ecdcf58b3" />
+              </chat>
+              <chat>
+                <internalId value="9f7fc658-9699-4c8d-9ef1-3792fe0445c2" />
+              </chat>
+            </list>
+          </chats>
+>>>>>>> origin/master
         </AccountData>
       </list>
     </accountData>
