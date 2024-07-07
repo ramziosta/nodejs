@@ -1,0 +1,19 @@
+{
+  "name": "read_file",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "files": [
+    "files/file1.txt",
+    "files/file2.txt",
+    "files/file3.txt"
+  ]
+}

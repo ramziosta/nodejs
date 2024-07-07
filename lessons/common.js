@@ -1,3 +1,4 @@
+/*
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -22,17 +23,9 @@ function question() {
 }
 
 question();
+*/
 
-function createCounter() {
-    let count = 0;
 
-    return function() {
-        count++;
-       console.log(count)
-       return count;
-   }
-}
-
-createCounter();
-createCounter();
-createCounter();
+const person = { name: 'John', age: 30 };
+const { name, age } = person;
+console.log(person.name);
