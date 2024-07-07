@@ -15,5 +15,10 @@
     "files/file1.txt",
     "files/file2.txt",
     "files/file3.txt"
-  ]
+  ],
+  "dependencies": {
+    "-": "^0.0.1",
+    "g": "^2.0.1",
+    "nodemon": "^3.1.4"
+  }
 }

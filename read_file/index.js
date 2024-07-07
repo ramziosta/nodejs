@@ -15,9 +15,9 @@ async function readThisFile(filepath) {
             // Remove leading/trailing whitespace and split into words
             const cleanedData = data.replace(/(?!\b'\b)[\p{P}\p{S}]/gu, '');
             const words = cleanedData.trim().split(" " );
-            // Count only valid words (alphanumeric or underscores)
+            // Count only valid words
             const validWordCount = words.filter((word) => word.match(/^\w+$/)).length;
-            console.log(`The file at path ${filepath} contains ${validWordCount} valid words.`);
+            console.log(`${filepath}: ${validWordCount} words.`);
         }
     } catch (error) {
         console.error(`Err reading file ${filepath}:`, error);
